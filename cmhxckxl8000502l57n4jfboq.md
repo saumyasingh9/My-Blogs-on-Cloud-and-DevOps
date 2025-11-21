@@ -17,7 +17,7 @@ The goal of this project was to simulate a **real-world enterprise-level deploym
 
 ---
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 This e-commerce platform consists of **11 independent microservices**, each running in its own Docker container and deployed as separate Kubernetes deployments on EKS:
 
@@ -60,7 +60,7 @@ The complete infrastructure runs on **AWS**, and the DevOps automation stack loo
 
 ---
 
-## 🏗️ Step 1: Infrastructure Setup with Terraform
+## Step 1: Infrastructure Setup with Terraform
 
 The first stage was provisioning all cloud resources in AWS using **Terraform modules** to maintain modularity and reusability.
 
@@ -89,7 +89,7 @@ This Infrastructure as Code approach made the environment **reproducible, scalab
 
 ---
 
-## ⚙️ Step 2: Continuous Integration with Jenkins
+## Step 2: Continuous Integration with Jenkins
 
 After setting up the infrastructure, I configured **Jenkins on the EC2 jumphost** to automate build and deployment pipelines.
 
@@ -141,7 +141,7 @@ Once all images were in ECR, I moved to the deployment phase using **ArgoCD**, a
         
 3. **Creating ArgoCD Application**
     
-    * Linked the GitHub repo (`Microservices-E-Commerce-eks-project`) in ArgoCD.
+    * Linked the GitHub repo ([git@github.com](mailto:git@github.com):saumyasingh9/Deploy-Production-ready-11-Microservices-E-Commerce-Platform-on-AWS-EKS.git) in ArgoCD.
         
     * Deployed all Kubernetes manifests located in the `kubernetes-files` directory.
         
@@ -152,7 +152,7 @@ ArgoCD made deployment fully **declarative and version-controlled**, improving t
 
 ---
 
-## 🌐 Step 4: Domain Setup & HTTPS with Route 53 + ACM
+## Step 4: Domain Setup & HTTPS with Route 53 + ACM
 
 To make the frontend accessible via a secure, custom domain, I configured **Route 53 and AWS Certificate Manager**.
 
@@ -185,7 +185,7 @@ To make the frontend accessible via a secure, custom domain, I configured **Rout
 
 ---
 
-## 📊 Step 5: Monitoring & Observability
+## Step 5: Monitoring & Observability
 
 To monitor application performance and infrastructure health, I integrated **Prometheus and Grafana** with the EKS cluster.
 
@@ -200,7 +200,7 @@ This observability setup helped ensure **high availability, reliability, and pro
 
 ---
 
-## ✅ Final Outcomes
+## Final Outcomes
 
 By the end of this project, I had achieved a **fully automated, production-ready microservices deployment** pipeline.
 
@@ -221,7 +221,7 @@ By the end of this project, I had achieved a **fully automated, production-ready
 
 ---
 
-## 💡 Learning Experience
+## Learning Experience
 
 This project helped me gain **hands-on experience with cloud-native architecture, DevOps automation, and Kubernetes orchestration**.  
 It strengthened my understanding of how to:
