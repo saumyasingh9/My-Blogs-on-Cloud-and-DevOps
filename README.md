@@ -9,7 +9,7 @@ This repository contains all the source files of my blogs published on [Hashnode
 ---
 
 ## 📖 Blog Topics Covered
-- ☁️ AWS Services (EC2, S3, IAM, VPC, etc.)
+- ☁️ AWS Services (EC2, S3, IAM, VPC, etc.), Azure, DevOps
 - 🔐 Security & Identity (IAM, Roles, Policies, Security Groups, NACLs)
 - 💰 Cost Monitoring & Optimization
 - 🖥️ Hands-on Projects with AWS
