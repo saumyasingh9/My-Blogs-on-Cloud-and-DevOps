@@ -1,5 +1,5 @@
 # Saumya Singh Blogs
-# 🌩️ AWS & Cloud Blog Repository
+# 🌩️ AWS/ Azure Cloud and DevOps Blog Repository
 
 Welcome to my personal blog repository!  
 I’m **Saumya Singh**, a Cloud enthusiast sharing my learning journey, hands-on projects, and tutorials around **AWS, Azure, Linux, DevOps and Cloud technologies**.  
